@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/images/favicon-minion.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/images/favicon-minion.png" type="image/x-icon"/>
 </head>
 <body>
     <header>
         <h1 class="heading-text">Minion converter!</h1>
     </header>
-    <textarea class="input-box" placeholder="Enter the sentence that you want to translate over here!"></textarea>
+    <textarea id="input-box" placeholder="Enter the sentence that you want to translate!"></textarea>
 
-    <button id="btnTranslate">TRANSLATE!</button>
+    <button id="btnTranslate">TRANSLATE</button>
 
-    <textarea class="output-box" placeholder="Translated text will appear here!"></textarea>
+    <div id="output-box">
+        <p>Output will come here!</p>
+    </div>
 
     <footer>
         <p class="footer-text">Who doesn't love minions?<br />These adorable yellow blobs have a language of their own!<br />Try out this translator to understand their language!</p>
