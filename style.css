@@ -47,6 +47,7 @@ header{
     margin: 2rem auto;
     background-color: var(--offwhite);
     font-weight: bold;
+    box-shadow: 2px 2px 5px var(--black); 
 }
 
 #btnTranslate{
@@ -57,7 +58,14 @@ header{
     background-color: var(--primary-color);
     font-family: 'Oswald', sans-serif;
     border: 2px solid var(--black);
-   
+    box-shadow: 1px 1px 2px var(--black); 
+    transition: box-shadow 500ms, font-weight 250ms;
+}
+
+#btnTranslate:hover{
+    box-shadow: 2px 2px 4px var(--black);
+    font-weight: bold;
+    transition: box-shadow 500ms, font-weight 250ms;
 }
 
 #output-box{
@@ -71,6 +79,7 @@ header{
     background-color: var(--offwhite);
     font-weight: bold;
     font-size: small;
+    box-shadow: 2px 2px 5px var(--black); 
 }
 
 
